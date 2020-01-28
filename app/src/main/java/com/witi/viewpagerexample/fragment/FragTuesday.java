@@ -11,21 +11,21 @@ import androidx.fragment.app.Fragment;
 
 import com.witi.viewpagerexample.R;
 
-public class FragMonday extends Fragment {
+public class FragTuesday extends Fragment {
 
     private View view;
 
     // 상태 저장을 위함
     // 어댑터와 통신하기 위함
-    public static FragMonday newInstance(){
-        FragMonday fragMonday = new FragMonday();
-        return fragMonday;
+    public static FragTuesday newInstance(){
+        FragTuesday fragTuesday = new FragTuesday();
+        return fragTuesday;
     }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.frag_monday, container, false);
+        view = inflater.inflate(R.layout.frag_tuesday, container, false);
         return view;
     }
 
